@@ -67,6 +67,7 @@ button {
   font: inherit;
   color: var(--hover_color);
   border-radius: 8px;
+  width: 100%;
 }
 .button-main {
   background-color: var(--button-color);
