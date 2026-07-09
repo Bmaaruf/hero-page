@@ -61,9 +61,15 @@ main {
 .hero p {
   margin-bottom: 24px;
 }
-
+.buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
 button {
-  padding: 8px 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font: inherit;
   color: var(--hover_color);
   border-radius: 8px;
@@ -72,14 +78,16 @@ button {
 .button-main {
   background-color: var(--button-color);
   border-color: var(--button-color);
-  transition: 0.4ms;
+  transition: 0.2ms;
   width: 140px;
+  height: 48px;
 }
 .button-sub {
   background-color: #1976d215;
   border-color: var(--hover_color);
   width: 140px;
   transition: 0.4ms;
+  height: 48px;
 }
 
 .button-main:hover,
