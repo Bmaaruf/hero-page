@@ -1,0 +1,95 @@
+:root {
+  --text-color: #1b263b;
+  --head-color: #0d1b2a;
+  --hover_color: #1976d2;
+  --button-color: #001845;
+  --button-hover: #001233;
+  --color-hover: #368fe8;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--text-color);
+  font-size: 1rem;
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  height: 8vh;
+}
+
+.links {
+  display: flex;
+  gap: 32px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:active,
+a:hover {
+  color: var(--hover_color);
+}
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 640px;
+  margin: 0 auto;
+  height: 92vh;
+  line-height: 1.4;
+}
+.hero-title {
+  margin-bottom: 16px;
+}
+.hero p {
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 8px 16px;
+  font: inherit;
+  color: var(--hover_color);
+  border-radius: 8px;
+}
+.button-main {
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  transition: 0.4ms;
+  width: 140px;
+}
+.button-sub {
+  background-color: #1976d215;
+  border-color: var(--hover_color);
+  width: 140px;
+  transition: 0.4ms;
+}
+
+.button-main:hover,
+.button-main:focus-visible {
+  background-color: var(--button-hover);
+  color: var(--color-hover);
+}
+
+.button-sub:hover,
+.button-sub:focus-visible {
+  background-color: var(--button-hover);
+  border-color: var(--button-hover);
+  color: var(--color-hover);
+}
