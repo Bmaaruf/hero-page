@@ -31,10 +31,11 @@ nav {
   height: 8vh;
 }
 @media (width < 600px) {
-  nav a {
+  nav {
     font-size: 0.8rem;
     display: flex;
     gap: 16px;
+    width: 100%;
   }
   .links {
     display: flex;
