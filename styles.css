@@ -33,6 +33,12 @@ nav {
 @media (width < 600px) {
   nav a {
     font-size: 0.8rem;
+    display: flex;
+    gap: 16px;
+  }
+  .links {
+    display: flex;
+    gap: 8px;
   }
 }
 .links {
