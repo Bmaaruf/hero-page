@@ -30,7 +30,11 @@ nav {
   align-items: center;
   height: 8vh;
 }
-
+@media (width < 600px) {
+  nav a {
+    font-size: 0.8rem;
+  }
+}
 .links {
   display: flex;
   gap: 32px;
