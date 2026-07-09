@@ -36,10 +36,22 @@ nav {
     display: flex;
     gap: 16px;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .links {
     display: flex;
     gap: 8px;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    width: auto;
+  }
+  .links a {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 4px 6px;
+    width: auto;
   }
 }
 .links {
