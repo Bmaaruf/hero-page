@@ -16,7 +16,7 @@ h1 {
 }
 
 body {
-  font-family: "inter", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text-color);
   font-size: 1rem;
   background-image: url("img1.jpg");
@@ -99,7 +99,7 @@ button {
 .button-main {
   background-color: var(--button-color);
   border-color: var(--button-color);
-  transition: 0.2s;
+  transition: 0.2s ease;
   width: 140px;
   height: 48px;
 }
@@ -108,7 +108,7 @@ button {
   border-color: var(--hover_color);
   color: var(--button-color);
   width: 140px;
-  transition: 0.4s;
+  transition: 0.4s ease;
   height: 48px;
 }
 
