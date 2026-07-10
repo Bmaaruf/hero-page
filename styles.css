@@ -30,28 +30,21 @@ nav {
   align-items: center;
   height: 8vh;
 }
-@media (width < 600px) {
+@media (max-width: 600px) {
   nav {
-    font-size: 0.8rem;
+    font-size: 14px;
     display: flex;
     gap: 16px;
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .links {
     display: flex;
     gap: 8px;
-    align-items: center;
-    margin: 0;
+    flex-wrap: wrap;
     justify-content: center;
-    width: auto;
-  }
-  .links a {
-    font-size: 0.8rem;
-    margin: 0;
-    padding: 4px 6px;
-    width: auto;
   }
 }
 .links {
