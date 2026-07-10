@@ -11,15 +11,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1 {
+  color: var(--head-color);
+}
 
 body {
-  font-family: sans-serif;
+  font-family: "inter", sans-serif;
   color: var(--text-color);
   font-size: 1rem;
   background-image: url("img1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-color: rgba(0, 0, 0, 0.16);
+  background-blend-mode: overlay;
 }
 
 nav {
@@ -75,7 +80,7 @@ main {
   margin-bottom: 16px;
 }
 .hero p {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .buttons {
   display: flex;
@@ -94,15 +99,16 @@ button {
 .button-main {
   background-color: var(--button-color);
   border-color: var(--button-color);
-  transition: 0.2ms;
+  transition: 0.2s;
   width: 140px;
   height: 48px;
 }
 .button-sub {
   background-color: #1976d215;
   border-color: var(--hover_color);
+  color: var(--button-color);
   width: 140px;
-  transition: 0.4ms;
+  transition: 0.4s;
   height: 48px;
 }
 
